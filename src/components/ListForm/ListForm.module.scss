@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.listForm {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .listForm {
+      width: 100%;
+      margin: 0 0 $base-size 0;
+    }
+}
+
+

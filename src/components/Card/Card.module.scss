@@ -1,0 +1,33 @@
+@use "sass:math";
+@import '../../styles/settings.scss';
+
+
+.card {
+    position: relative;
+    background: $color-light;
+    border: 1px solid lighten($color-dark, 60%);
+    padding: $base-size;
+    margin: 0 0 $base-size 0;
+    border-radius: $radius;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+
+.button_star {
+    border: none;
+    background-color: inherit;
+    color: black;
+}
+
+.button_trash {
+    border: none;
+    background-color: inherit;
+    color: black;
+}
+  
+.active {
+    color: red;
+}
